@@ -1,0 +1,27 @@
+.container {
+    width: 80vw;
+    height: 70vw;
+    background-color: rgb(117, 60, 23);
+    border: 3px solid #080808;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.turma {
+
+}
+
+.curso {
+    
+}
+
+.prof {
+
+}
+
+.lista {
+
+}
