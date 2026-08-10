@@ -2,3 +2,18 @@
     height: 50vh;
     width: 100vw;
 }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 39vh;
+}
+
+.sobre{
+    background-color: red;
+}
+.tecnologias{
+    background-color: blue;
+}
+.objetivo{
+    background-color: purple;
+}
