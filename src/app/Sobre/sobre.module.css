@@ -1,13 +1,30 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383838;
+    width: auto;
+    height: 100vh;
+}
+
 .container {
     width: 80vw;
-    height: 70vw;
-    background-color: rgb(117, 60, 23);
+    height: 30vw;
+    background-color: rgb(117, 23, 23);
     border: 3px solid #080808;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    gap: 2rem;
+}
+
+.card {
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(255, 174, 0);
+    border-radius: 10px;
 }
 
 .turma {
@@ -15,7 +32,7 @@
 }
 
 .curso {
-    
+
 }
 
 .prof {
@@ -23,5 +40,21 @@
 }
 
 .lista {
+
+}
+
+.t_turma {
+
+}
+
+.t_curso {
+
+}
+
+.t_prof {
+
+}
+
+.t_lista {
 
 }
