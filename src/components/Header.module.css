@@ -3,7 +3,7 @@
     width: 100vw;
     height: 11vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center ;
 }
 
@@ -16,12 +16,28 @@
 .nav{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    justify-content: space-between;
     height: 100%;
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .navegacao{
-    gap:10px
+    height: 100%;
+    width: 40%;
 }
 
+.text{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: larger;
+}
+
+.titulo{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+}
