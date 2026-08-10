@@ -1,19 +1,19 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .imagem{
-    height: 50vh;
-    width: 100vw;
+    
+    width: 100%;
+    object-fit: cover;
+    min-height: 1;
 }
 .grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 39vh;
+    height: 35vh;
 }
 
-.sobre{
-    background-color: red;
-}
-.tecnologias{
-    background-color: blue;
-}
-.objetivo{
-    background-color: purple;
-}
