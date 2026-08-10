@@ -1,27 +1,97 @@
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383838;
+    width: auto;
+    height: 100;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url("/images/bannersobre.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 .container {
     width: 80vw;
-    height: 70vw;
-    background-color: rgb(117, 60, 23);
+    height: 30vw;
+    background-color: rgb(117, 23, 23);
     border: 3px solid #080808;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: aliceblue;
+    gap: 2rem;
+}
+
+.card {
+    width: 30vh;
+    height: 30vh;
+    background-color: rgb(255, 174, 0);
+    border-radius: 10px;
 }
 
 .turma {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .curso {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .prof {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.t_turma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_curso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
